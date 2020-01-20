@@ -62,6 +62,7 @@
     "release-it": "^7.6.1"
   },
   "peerDependencies": {
+    "@react-native-community/viewpager": "^3.3.0",
     "react": "*",
     "react-native": "*"
   },

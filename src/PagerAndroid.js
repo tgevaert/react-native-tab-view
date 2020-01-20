@@ -1,9 +1,10 @@
 /* @flow */
 
 import * as React from 'react';
-import { View, ViewPagerAndroid, StyleSheet, I18nManager } from 'react-native';
+import { View, StyleSheet, I18nManager } from 'react-native';
 import { PagerRendererPropType } from './PropTypes';
 import type { PagerRendererProps } from './TypeDefinitions';
+import ViewPagerAndroid from '@react-native-community/viewpager';
 
 type PageScrollEvent = {
   nativeEvent: {
